@@ -381,6 +381,7 @@ img {
 .container {
   width: 100%;
   max-width: 1150px;
+  padding: 0;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -477,6 +478,8 @@ img {
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
+}
+
 .manage-section {
   background-color: #012f34;
   padding: 110px 0;
@@ -525,4 +528,46 @@ img {
   font-size: 15px;
   line-height: 25px;
   color: #fff;
+}
+
+.delivering {
+  background-color: #014e56;
+}
+
+.delivering-text {
+  padding-top: 140px;
+  margin: 0;
+  margin-bottom: 92px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.delivering-text-color {
+  color: rgb(121, 200, 199);
+}
+
+.delivering-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 151px;
+  list-style: none;
+  text-align: center;
+}
+
+.delivering-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.delivering-link h3 {
+  color: #79c8c7;
+}
+
+.delivering-link p {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
 }/*# sourceMappingURL=main.css.map */
