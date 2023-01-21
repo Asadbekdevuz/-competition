@@ -334,6 +334,52 @@ img {
 }
 
 .container {
+  width: 100%;
+  max-width: 1150px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.site-header {
+  padding-top: 73px;
+  padding: 29px;
+  background-color: #014E56;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+.nav-link,
+.contact {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact {
+  padding: 9px 32px 11px 32px;
+  border: 2px solid rgb(173, 13, 13);
+  border-radius: 24px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
