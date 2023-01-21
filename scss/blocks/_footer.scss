@@ -1,0 +1,40 @@
+.site-footer {
+    background-color: #002529;
+    padding: 48px 0;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-start {
+    margin-bottom: 25px;
+}
+
+.footer-list {
+    width: 100%;
+    max-width: 445px;
+}
+
+.list-item {
+    // margin-bottom: px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+.footer-end {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.socila-media-list {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 51px;
+}
