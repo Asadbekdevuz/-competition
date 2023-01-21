@@ -1,0 +1,49 @@
+.hero-section {
+  padding-top: 100px;
+  background-image: url("../../images/bg-img-2.png");
+  background-repeat: no-repeat;
+  background-position: 0px 50px;
+  background-color: #014e56;
+}
+
+.best-talant {
+  padding-top: 56px;
+  padding-bottom: 250px;
+  background-image: url("../../images/bg-img-1.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.best-talant-title {
+  max-width: 635px;
+}
+
+.best-talant-title h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 100px;
+  color: #ffffff;
+}
+
+.best-talant-text-span {
+  display: inline-block;
+  width: 50px;
+  height: 4px;
+  background-color: #79c8c7;
+  margin-bottom: 79px;
+}
+
+.best-talant-text {
+  max-width: 445px;
+}
+
+.best-talant-text p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
